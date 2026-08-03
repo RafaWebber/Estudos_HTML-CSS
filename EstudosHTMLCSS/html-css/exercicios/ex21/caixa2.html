@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: darkorchid;
+            margin: 0px;
+        }
+        header{
+            padding: 10px;
+            background-color: rgb(94, 29, 126);
+            margin: 10px;
+        }
+        nav{
+           background-color: rgb(194, 170, 216);
+           padding: 5px; 
+           box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.318);
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(56, 16, 93);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            padding: 10px;
+            background-color: rgb(188, 101, 232);
+            margin: 10px;
+            border-radius: 10px 40px;
+            box-shadow:  2px 2px 4px 1px black;
+        }
+        article{
+            background-color: azure;
+        }
+        article > aside{
+            background-color: rgb(189, 202, 202);
+        }
+        footer{
+            background-color: rgb(73, 1, 73);
+            color: aliceblue;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">l1</a>
+            <a href="#">l2</a>
+            <a href="#">l3</a>
+            <a href="#">l4</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus suscipit sequi, officia officiis distinctio qui voluptatibus dolore natus. Libero nam omnis autem perspiciatis repellendus placeat suscipit nostrum, necessitatibus tempora fugiat?</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Livro xyz</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi corrupti, voluptate ipsa exercitationem eius consequatur deleniti laudantium asperiores laboriosam. Magni officiis, cupiditate dolore voluptatibus aut odit accusamus hic aliquid suscipit?</p>
+                <aside>
+                    <p>Artigo escrito por JRRT</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+       <p> Desenvolvido por Rafael Webber</p>
+    </footer>
+</body>
+</html>
